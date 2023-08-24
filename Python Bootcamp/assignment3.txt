@@ -1,0 +1,20 @@
+Exercise: Palindrome Checker
+
+Objective: Write a program to determine if a given word or sentence is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+
+Instructions:
+
+Your program should be able to ignore non-alphanumeric characters and be case insensitive. For example, "A man, a plan, a canal, Panama" is a valid palindrome.
+
+Create two functions to check for palindromes:
+
+is_palindrome_while(input_string: str) -> bool: This function should use a while loop to check if the input string is a palindrome.
+is_palindrome_for(input_string: str) -> bool: This function should use a for loop to check if the input string is a palindrome.
+Both functions should return True if the input string is a palindrome and False otherwise.
+
+Test your functions with some sample inputs. Remember, your functions should be able to handle cases with spaces and punctuation.
+
+Hints:
+
+Consider using Python string methods and conditional checks to clean your input string.
+To check the palindrome property, consider how you might compare characters from the beginning and end of the string, moving inward.
