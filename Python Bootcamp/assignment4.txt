@@ -1,0 +1,37 @@
+Assignment (Advanced Party Guest Manager)
+
+**Objective:**
+Practice using Python dictionaries and tuples by building a guest management system for a party.
+
+## **Steps To Complete**
+
+1. Guest List Initialization:
+
+Create an empty dictionary called guests to store guest information.
+Each guest will have a name, age, and email.
+2. Adding Guests:
+
+Add the following guests to your dictionary using tuples:
+"Alice", 28, "alice@email.com"
+"Bob", 35, "bob@email.com"
+"Charlie", 30, "charlie@email.com"
+Use the name as the dictionary key, and the tuple (age, email) as the value.
+3. Updating the Guest List:
+
+Add a new guest: "David", 22, "david@email.com".
+Remove "Bob" from the list.
+4. Guest Information Retriever:
+
+Create a function get_guest_info(guest_name) that:
+Checks if the guest is on the list.
+If yes, returns: "{guest_name} (Age: {age}) is coming to the party! Email: {email}"
+Otherwise, returns: "{guest_name} is not on the guest list."
+5. Guest Counter:
+
+Display the total number of guests currently on the list.
+
+**Extensions:**
+
+Allow users to input their own guests, with the required details.
+Display guests in order of age.
+Handle the scenario where someone tries to add an existing guest. Prompt to update details or skip.
